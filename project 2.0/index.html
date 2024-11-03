@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="icon" href="images/iconBryanCafe.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="bryanCafe.js"></script>
+    <script type="text/javascript" src="nav.js"></script>
+    <title>Bryan&apos;s Café</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12">
+      <div class="container">
+        <a class="navbar-brand" href="home.html">Bryan&apos;s Café</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuItems">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuItems">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar-items">
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container p-0">
+        <div class="row p-2">
+          <img src="images/home/1.jpg" alt="banner" class="col-12">
+        </div>
+        <div class="row p-2" id="about">
+          <h3 class="text-center mt-3 mb-2 d-lg-none">ABOUT BRYAN'S CAFÉ</h3>
+          <div class="col-lg-4" id="aboutImage">
+            <img src="images/home/2.jpg" alt="About" class="w-100">
+          </div>
+          <div class="col-lg-8" id="aboutText">
+            <h3 class="text-center mt-3 d-none d-lg-block">ABOUT BRYAN'S CAFÉ</h3>
+            <p>Nestled in the heart of the city, Bryan's Cafeis more than just a place to grab a cup of coffee—it's a space for relaxation, connection, and community. Founded with the goal of creating a cozy escape from the hustle and bustle, Byran's Cafe offers a blend of rustic charm and modern elegance. Each cup of coffee we serve is crafted with love, using the finest beans sourced from ethical and sustainable farms around the world. Whether you're looking for a quick pick-me-up or a spot to linger with friends, we aim to make every visit a memorable one.</p>
+            <p>Our menu extends beyond coffee to include a variety of teas, pastries, and freshly made sandwiches. Our pastries are baked daily, filling the café with an irresistible aroma that invites you to sit back and unwind. We believe in supporting local farmers and bakers, and our ingredients are always fresh, organic, and locally sourced whenever possible. We’re passionate about creating food and drinks that are not only delicious but also a celebration of local flavors and seasonal ingredients.</p>
+            <p>At the heart of our café is a commitment to community. We regularly host events, from open mic nights to coffee brewing workshops, fostering a sense of belonging among our patrons. Our cozy interiors, with warm lighting and comfortable seating, make it the perfect spot to catch up with friends, meet new people, or simply take a break with a good book. We're more than just a café—we’re a place to connect, create, and unwind. We look forward to welcoming you and becoming a part of your daily routine.</p>
+          </div>
+        </div><!-- <div class="row p-2" id="about"> -->
+        <div class="row p-2 bg-light" id="history">
+          <h3 class="text-center mt-3 mb-2 d-lg-none">HISTORY</h3>
+          <div class="col-lg-4 order-lg-2" id="historyImage">
+            <img src="images/home/3.jpg" alt="History" class="w-100">
+          </div>
+          <div class="col-lg-8 order-lg-1" id="historyText">
+            <h3 class="text-center mt-3 mb-2 d-none d-lg-block">HISTORY</h3>
+            <p>Our story began over two decades ago in a quaint corner of the city, where our founder, a coffee enthusiast with a passion for quality and community, opened the doors to a humble café. What started as a small space with a few tables quickly became a local favorite, thanks to our founder's commitment to sourcing premium beans and preparing each cup with care. From day one, the café was a welcoming haven for locals and travelers alike, drawn by the aroma of freshly brewed coffee and the warmth of friendly faces. This early success set the foundation for what our café would become—a cherished community staple.</p>
+            <p>Over the years, the café has evolved in many ways, but our dedication to quality and community has remained at the heart of everything we do. As word of mouth spread, our little café expanded to accommodate more guests, adding new menu items inspired by seasonal ingredients and customer feedback. We continued to prioritize locally-sourced ingredients, working closely with nearby farms and bakers to bring fresh flavors to our tables. Our interiors have changed too, reflecting a mix of modern elegance and rustic charm, creating a comfortable and inviting atmosphere that feels like home to everyone who steps through our doors.</p>
+            <p>Today, our café stands as a testament to hard work, passion, and the power of community. We’re proud to have hosted countless gatherings, celebrations, and everyday moments shared over coffee. Each cup we serve is a nod to our roots, a blend of tradition and innovation, crafted to bring people together. As we look to the future, our commitment remains the same: to create a space where everyone feels welcome, valued, and at home. Whether you’re here for your first visit or your hundredth, we hope our café becomes a special part of your story too.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark d-flex flex-column justify-content-end text-center">
+      <p class="text-light fs-6">&copy;<span id="currentYear"></span> Bryan&apos;s Cafe | <a href="privacyPolicy.html" class="text-decoration-none" target="_blank">Privacy Policy</a></p>
+    </footer>
+
+    <script type="text/javascript">
+      document.querySelector("#currentYear").textContent = getCurrentYear();
+    </script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

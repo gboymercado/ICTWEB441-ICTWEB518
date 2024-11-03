@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+  <meal>
+    <item>
+      <name>Beetroot and feta salad</name>
+      <price>$15.00</price>
+      <description>Suitable for vegetarians, made with fresh beetroot</description>
+      <image>beetrootAndFetaSalad.jpeg</image>
+    </item>
+    <item>
+      <name>Sourdough Rye Sandwich</name>
+      <price>$18.00</price>
+      <description>Cheese and salad sandwich made with organic, sourdough rye bread</description>
+      <image>sourdoughRyeSandwich.jpeg</image>
+    </item>
+    <item>
+      <name>Spinach Pie and Salad</name>
+      <price>$20.00</price>
+      <description>Tasty pie with salad</description>
+      <image>SpinachPieAndSalad.jpeg</image>
+    </item>
+    <item>
+      <name>Feta pancakes with salad</name>
+      <price>$19.50</price>
+      <description>Tasty pancake filled with feta and salad</description>
+      <image>fetaPancakesWithSalad.jpeg</image>
+    </item>
+    <item>
+      <name>Granola with Yogurt and strawberry</name>
+      <price>$15.50</price>
+      <description>Tasty and healthy breakfast for everyone.</description>
+      <image>oats.jpg</image>
+    </item>
+    <item>
+      <name>Avocado Toast</name>
+      <price>$20.00</price>
+      <description>Very tasty, healty, and affordable avocado toast for everyone</description>
+      <image>toast.jpg</image>
+    </item>
+    <item>
+      <name>Pork Roast Wrap</name>
+      <price>18.00</price>
+      <description>Aa savory dish featuring tender, seasoned roasted pork, typically paired with fresh veggies and sauce.</description>
+      <image>wrap.jpg</image>
+    </item>
+    <item>
+      <name>Gourmet Burger</name>
+      <price>25.00</price>
+      <description>A gourmet burger with a juicy patty, caramelized onions, lettuce, crispy cheese, and creamy sauce on a brioche bun.</description>
+      <image>burger.jpg</image>
+    </item>
+  </meal>
+  <beverage>
+    <coffeeAndHotChocolate>
+      <item>
+        <size>Small</size>
+        <price>$3.50</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+      </item>
+      <item>
+        <size>Regular</size>
+        <price>$4.00</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+      </item>
+      <item>
+        <size>Large</size>
+        <price>$4.50</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+      </item>
+    </coffeeAndHotChocolate>
+    <other>
+      <item>
+        <name>Soda</name>
+        <price>$3.00</price>
+      </item>
+      <item>
+        <name>Fresh juice</name>
+        <price>$6.00</price>
+      </item>
+      <item>
+        <name>Bottled water</name>
+        <price>$2.00</price>
+      </item>
+    </other>
+  </beverage>
+</menu>

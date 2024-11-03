@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "nav.dtd">
+<menu>
+    <item>
+      <name>Home</name>
+      <url>home.html</url>
+    </item>
+    <item>
+        <name>About</name>
+        <url>index.html</url>
+    </item>
+    <item>
+        <name>Menu</name>
+        <url>menu.html</url>
+    </item>
+    <item>
+      <name>Contact</name>
+      <url>contact.html</url>
+    </item>
+</menu>

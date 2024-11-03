@@ -1,0 +1,4 @@
+<!ELEMENT menu (item+)>
+<!ELEMENT item (name, url)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
